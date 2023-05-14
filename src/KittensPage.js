@@ -61,7 +61,7 @@ function KittensPage() {
 
   return (
     <div className="kittens-page">
-      <h1>Kittens</h1>
+      <h1>Our Kittens</h1>
       <div className="photo-gallery">
         <div className="photo-container">
           <img src={currentKitten.image} alt={currentKitten.name} />
