@@ -31,12 +31,6 @@
 
   }
 
-  body {
-    background-image: url("../images/bg.png");
-    background-size: cover;
-    background-position: top;
-}
-  
   /* Header */
   .header {
     padding: 20px;

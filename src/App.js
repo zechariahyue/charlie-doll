@@ -7,6 +7,7 @@ import KittensPage from './KittensPage';
 import AboutPage from './AboutPage';
 import ContactPage from './ContactPage';
 import ReactDOM from 'react-dom';
+import './assets/styles/styles.css';
 
 
 ReactDOM.render(
