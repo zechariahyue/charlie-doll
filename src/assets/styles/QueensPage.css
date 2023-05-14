@@ -35,9 +35,10 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 0px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
+    
   }
   
   .description h2 {
@@ -58,17 +59,19 @@
   .arrow-buttons {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
   }
   
   .arrow-buttons button {
-    font-size: 24px;
-    margin: 0 10px;
+    font-size: 30px;
+    margin: 0 20px;
     background-color: #fff;
     color: #000;
     border: none;
     cursor: pointer;
   }
-  
+
   .arrow-buttons button:focus {
     outline: none;
   }

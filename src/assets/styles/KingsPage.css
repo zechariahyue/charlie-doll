@@ -13,40 +13,21 @@
   
   .photo-gallery {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
   
-  .arrow-buttons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .arrow-buttons button {
-    font-size: 24px;
-    background-color: transparent;
-    border: none;
-    color: #888;
-    cursor: pointer;
-  }
-  
-  .arrow-buttons button:hover {
-    color: #000;
-  }
-  
   .photo-container {
-
-    width: 800px;
-    max-height: 1000px;
+    position: relative;
+    width: 100%;
+    max-height: 400px;
     overflow: hidden;
-    margin: 0 20px;
-    height: 800px;
+    margin-bottom: 20px;
   }
   
   .photo-container img {
     width: 100%;
     height: 100%;
-    height: 800px;
     object-fit: cover;
   }
   
@@ -55,13 +36,19 @@
     bottom: 0;
     left: 0;
     right: 0;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.6);
     color: #fff;
+    font-size: 16px;
+    /* Adjust the padding values to control the spacing within the box */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .description h2 {
-    font-size: 20px;
+    font-size: 10px;
     margin-bottom: 10px;
   }
   
@@ -74,6 +61,27 @@
   .description ul li {
     margin-bottom: 5px;
   }
+  
+  .arrow-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .arrow-buttons button {
+    font-size: 30px;
+    margin: 0 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .arrow-buttons button:focus {
+    outline: none;
+  }
+  
   
   .footer p{
     background-color: transparent;
@@ -89,8 +97,21 @@
   
   /* Media Query for Responsive Design */
   @media (max-width: 768px) {
-    .kings-page {
+    .kittens-page {
       padding: 10px;
     }
   }
+  /* Styles for large screens */
+@media (min-width: 1024px) {
+    /* Add your styles here */
+  }
   
+  /* Styles for medium screens */
+  @media (max-width: 1023px) and (min-width: 768px) {
+    /* Add your styles here */
+  }
+  
+  /* Styles for small screens */
+  @media (max-width: 767px) {
+    /* Add your styles here */
+  }

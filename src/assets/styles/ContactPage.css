@@ -57,6 +57,12 @@
     border: none;
     cursor: pointer;
   }
+
+  .success-message {
+    color: green;
+    font-size: 18px;
+    margin-top: 10px;
+  }
   
   .contact-form button[type="submit"]:hover {
     background-color: #0056b3;
@@ -71,4 +77,57 @@
     font-size: 30px ;
     bottom: 0;
     width: 100%;
+  }
+
+  /* ContactPage.css */
+.contact-form {
+    margin-top: 2rem;
+  }
+  
+  .contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .success-message {
+    margin-top: 1rem;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 0.75rem;
+    border-radius: 4px;
+  }
+  /* Styles for large screens */
+@media (min-width: 1024px) {
+    /* Add your styles here */
+  }
+  
+  /* Styles for medium screens */
+  @media (max-width: 1023px) and (min-width: 768px) {
+    /* Add your styles here */
+  }
+  
+  /* Styles for small screens */
+  @media (max-width: 767px) {
+    /* Add your styles here */
   }

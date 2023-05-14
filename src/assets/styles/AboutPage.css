@@ -43,4 +43,17 @@
       padding: 10px;
     }
   }
+  /* Styles for large screens */
+@media (min-width: 1024px) {
+    /* Add your styles here */
+  }
   
+  /* Styles for medium screens */
+  @media (max-width: 1023px) and (min-width: 768px) {
+    /* Add your styles here */
+  }
+  
+  /* Styles for small screens */
+  @media (max-width: 767px) {
+    /* Add your styles here */
+  }
