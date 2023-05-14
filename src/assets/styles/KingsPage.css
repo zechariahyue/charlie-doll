@@ -1,0 +1,96 @@
+/* KingsPage.css */
+.kings-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .kings-page h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .photo-gallery {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .arrow-buttons button {
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .arrow-buttons button:hover {
+    color: #000;
+  }
+  
+  .photo-container {
+
+    width: 800px;
+    max-height: 1000px;
+    overflow: hidden;
+    margin: 0 20px;
+    height: 800px;
+  }
+  
+  .photo-container img {
+    width: 100%;
+    height: 100%;
+    height: 800px;
+    object-fit: cover;
+  }
+  
+  .description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  
+  .description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .description ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .description ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer p{
+    background-color: transparent;
+    color:  #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    font-size: 30px ;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .kings-page {
+      padding: 10px;
+    }
+  }
+  
