@@ -27,11 +27,15 @@ function ContactPage() {
           <i className="fa fa-phone"></i> Phone: 573-424-9354
         </p>
         <p>
-          <i className="fa fa-envelope"></i> Email: example@example.com
+          <i className="fa fa-envelope"></i> Email: info@charliesdoll.com
         </p>
         <p>
           <i className="fa fa-facebook-square"></i> Facebook Page:{' '}
-          <a href="https://www.facebook.com/example">Example Facebook Page</a>
+          <a href="https://www.facebook.com/profile.php?id=100092352295293">Charlies Doll Facebook Page</a>
+        </p>
+        <p>
+          <i className="fa fa-instagram"></i> Instagram Page:{' '}
+          <a href="https://instagram.com/charlies_doll_cattery?igshid=OGQ5ZDc2ODk2ZA==">Charlies Doll Instagram</a>
         </p>
       </div>
 

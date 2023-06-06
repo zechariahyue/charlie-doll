@@ -21,7 +21,7 @@ const kingsData = [
   {
     id: 3,
     image: king1,
-    name: 'Lucifer',
+    name: 'Lucifer (Retired)',
     breed: 'Ragdoll',
   },
 
