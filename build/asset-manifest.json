@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fa02d0bb.css",
+    "main.js": "/static/js/main.2f7a3b00.js",
+    "static/js/787.c6b4023b.chunk.js": "/static/js/787.c6b4023b.chunk.js",
+    "static/media/Kitten3.jpeg": "/static/media/Kitten3.fdc4e6981d23d209c738.jpeg",
+    "static/media/Kitten6.jpeg": "/static/media/Kitten6.f8a7f9e1423651e0730d.jpeg",
+    "static/media/kitten2.jpeg": "/static/media/kitten2.f4f1d977896a8ecf3995.jpeg",
+    "static/media/gr.jpeg": "/static/media/gr.b4e101dd8544be7ad0b3.jpeg",
+    "static/media/lucy.jpeg": "/static/media/lucy.8af098917e07dbdd7fbd.jpeg",
+    "static/media/kitten5.jpeg": "/static/media/kitten5.514598b92a97be6bfe24.jpeg",
+    "static/media/McSteamy.jpeg": "/static/media/McSteamy.5a533d89cf11b7f35a2c.jpeg",
+    "static/media/Kitten4.jpeg": "/static/media/Kitten4.7ef5e83d9be319cfc362.jpeg",
+    "static/media/bg.png": "/static/media/bg.bdc37f31b0c048a72b8a.png",
+    "static/media/Lamborghni.jpeg": "/static/media/Lamborghni.3dfaa799451c7b4c752c.jpeg",
+    "static/media/Lychee.jpeg": "/static/media/Lychee.576231c5f53e9ec0b3ea.jpeg",
+    "static/media/kitten1.jpeg": "/static/media/kitten1.3fffce96ef2a9c4bfa36.jpeg",
+    "static/media/McDreamy.jpeg": "/static/media/McDreamy.8f7c820e0b12d5763901.jpeg",
+    "static/media/Monkey.jpeg": "/static/media/Monkey.b5ca44bd11d3e0bddce0.jpeg",
+    "static/media/Seven.jpeg": "/static/media/Seven.0c746b0f0eab2f509440.jpeg",
+    "index.html": "/index.html",
+    "main.fa02d0bb.css.map": "/static/css/main.fa02d0bb.css.map",
+    "main.2f7a3b00.js.map": "/static/js/main.2f7a3b00.js.map",
+    "787.c6b4023b.chunk.js.map": "/static/js/787.c6b4023b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa02d0bb.css",
+    "static/js/main.2f7a3b00.js"
+  ]
+}

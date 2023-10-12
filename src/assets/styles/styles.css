@@ -1,0 +1,16 @@
+  
+body {
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  margin: 0;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  body {
+    background-size: cover;
+  }
+}

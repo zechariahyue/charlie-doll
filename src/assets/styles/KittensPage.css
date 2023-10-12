@@ -1,0 +1,176 @@
+.kittens-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.kittens-page h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-container {
+  position: relative;
+  width: 300px; /* Adjust width for card display */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.photo-container:hover {
+  transform: scale(1.05);
+}
+
+/* On hover, display the name and breed */
+.photo-container .cat-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.photo-container {
+  max-height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.photo-container:hover .cat-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.description h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.description ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.description ul li {
+  margin-bottom: 5px;
+}
+
+.arrow-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.arrow-buttons button {
+  font-size: 24px;
+  margin: 0 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow-buttons button:focus {
+  outline: none;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #888;
+}
+
+.footer p {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  font-size: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+  .kittens-page {
+    padding: 10px;
+  }
+}
+/* Styles for large screens */
+@media (min-width: 1024px) {
+  /* Add your styles here */
+}
+
+/* Styles for medium screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* Add your styles here */
+}
+
+/* Styles for small screens */
+@media (max-width: 767px) {
+  /* Add your styles here */
+}
+
+/* Responsive design for photo gallery */
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between cards */
+}
+
+/* Adjustments for different screen sizes */
+@media (max-width: 1200px) {
+  .photo-container {
+      width: calc(33.33% - 20px); /* Three cards per row, accounting for gap */
+  }
+}
+
+@media (max-width: 900px) {
+  .photo-container {
+      width: calc(50% - 20px); /* Two cards per row, accounting for gap */
+  }
+}
+
+@media (max-width: 600px) {
+  .photo-container {
+      width: 100%; /* One card per row */
+  }
+}

@@ -1,0 +1,175 @@
+/* LandingPage.css */
+
+/* Overall layout */
+/* LandingPage.css */
+
+/* LandingPage.css */
+
+/* Styles for large screens */
+@media (min-width: 1024px) {
+  /* Add your styles here */
+}
+
+/* Styles for medium screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  /* Add your styles here */
+}
+
+/* Styles for small screens */
+@media (max-width: 767px) {
+  /* Add your styles here */
+}
+
+
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+}
+
+
+
+/* Header */
+.header {
+  padding: 20px;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Banner section */
+.banner {
+  position: relative;
+  width: 100vh;
+  height: 40vh;
+  overflow: hidden;
+}
+
+
+.banner-content {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.banner-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.banner-button:hover {
+  background-color: #555;
+}
+
+/* Features section */
+.features {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: transparent;
+}
+
+.feature-item {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.feature-item h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Testimonial section */
+.testimonial {
+  padding: 40px;
+  background-color: transparent;
+}
+
+.testimonial h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testimonial-item {
+  margin-top: 20px;
+}
+
+.testimonial-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.customer-name {
+  font-style: italic;
+}
+
+/* Footer */
+.footer p{
+  background-color: transparent;
+  color:  #000;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 10px;
+}
+
+/* LandingPage.css */
+
+/* ... previous styles ... */
+
+/* Navigation */
+.navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}

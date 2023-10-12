@@ -1,0 +1,116 @@
+/* Base styles for KingsPage */
+.queens-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.queens-page h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align cards to the start of the row */
+  align-items: center;
+  gap: 20px; /* Spacing between cards */
+}
+
+.photo-container {
+  position: relative;
+  width: 300px; /* Adjust width for card display */
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px;
+  transition: transform 0.3s ease;
+  flex: 1 0 calc(33.33% - 20px); /* Three cards per row, accounting for gap */
+}
+
+.photo-container:hover {
+  transform: scale(1.05);
+}
+
+/* On hover, display the name and breed */
+.photo-container .cat-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+}
+
+.photo-container:hover .cat-info {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+}
+
+.description h2 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.description ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.description ul li {
+  margin-bottom: 5px;
+}
+
+.footer p {
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  font-size: 10px;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Styles for medium screens */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .photo-container {
+      flex: 1 0 calc(50% - 20px); /* Two cards per row */
+  }
+}
+
+/* Styles for small screens */
+@media (max-width: 767px) {
+  .photo-container {
+      flex: 1 0 100%; /* One card per row */
+      width: 100%;
+  }
+}
